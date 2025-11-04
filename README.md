@@ -8,7 +8,7 @@ The primary goal of this project is to develop and fine-tune a system that takes
 
 Our approach is to adapt a state-of-the-art, pre-trained Vision-Language Model (VLM), such as **BLIP** or **GIT**. The core tasks will be:
 
-1.  **Dataset Creation:** We will create a custom dataset by translating a subset of an existing English benchmark (like Flickr8k or MS COCO) into Arabic.
+1.  **Dataset Creation:** We will create a custom dataset by translating an existing English benchmark into Arabic.
 2.  **Model Fine-Tuning:** We will fine-tune the selected VLM on our new Arabic dataset to teach it to map image embeddings to fluent, multi-sentence Arabic text.
 3.  **Evaluation:** We will test the model's ability to generate descriptive Arabic paragraphs and evaluate its performance.
 4. **Input/Output:** The final system will accept a static image as **input** and produce a multi-sentence Arabic description as **output**.
@@ -16,15 +16,13 @@ Our approach is to adapt a state-of-the-art, pre-trained Vision-Language Model (
 ## 📁 Repository Structure
 
 ```
-├──  .venv/
-├──  notebooks/
-│   ├── 1_model_finetuning.ipynb      # Notebook for training the model
-│   └── 2_model_evaluation.ipynb    # Notebook for testing and generating results
-├── datasets/
-│   ├── images/                     # (Source images)
-│   └── captions_ar.txt            # Our translated Arabic captions
+├── .venv/
+├── data/
+├── notebooks/
+│   ├── images/
+│   └── combined_descriptions.txt
 ├── src/
-│   └── (Any helper .py scripts)
+├── .gitignore
 └── README.md                       
 ```
 
