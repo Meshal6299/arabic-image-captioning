@@ -32,3 +32,27 @@ Our approach is to adapt a state-of-the-art, pre-trained Vision-Language Model (
 * Wang, J., et al. (2022). **GIT: A Generative Image-to-text Transformer for Vision and Language**
 * Vinyals, O., et al. (2015). **Show and Tell: A Neural Image Caption Generator**
 * Xu, K., et al. (2015). **Show, attend and tell: Neural image caption generation with visual attention**
+
+## 🚀 How to Run the Project
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/Meshal6299/arabic-image-captioning.git
+
+cd arabic-image-captioning
+```
+
+### 2️⃣ Create and Activate a Virtual Environment
+```bash
+python3 -m venv .venv
+
+# 🪟 Windows
+.venv\Scripts\activate
+# 🐧 macOS / Linux
+source .venv/bin/activate
+```
+
+### 3️⃣ Install Dependencies
+```bash
+pip install -r requirements.txt
+```
